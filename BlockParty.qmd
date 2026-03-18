@@ -66,125 +66,8 @@ generate_svg(
 
 ## Pharmaverse
 
-::::: {.columns}
+![](images/Pharmaverse.png)
 
-:::: {.column width="50%"}
-
-
-Ashley Tarasiewicz
-
-Marcin Dubel
-
----
-
-<div style="text-align: center;"> _Mission_ </div>
-
-🚀 A connected network of companies and individuals working to promote collaborative development of currated open source R packages for clinical reporting usage in pharma.
-
-::::
-
-:::: {.column width="50%"}
-
-::: {.codewindow style="font-size: 0.42em;"}
-
- _Current Projects_
-
-```bash
-admiral
-aNCA
-autoslideR
-cards
-cardsx
-chevron
-clinify
-connector
-covtracer
-datacutr
-datasetjson
-dataviewR
-docorator
-envsetup
-ggsurvfit
-gridify
-gtsummary
-logrx
-metacore
-metatools
-pharmaRTF
-pharmaverseADaM
-pharmaverseraw
-pharmaverseSDTM
-pkglite
-pypkglite
-rhino
-riskassessr
-riskassessment
-riskmetric
-rlistings
-rtables
-rtflite
-sdtm.oak
-sdtmchecks
-siera
-teal
-tern
-tfrmt
-tfrmtbuilder
-tidyCDISC
-tidytlg
-Tplyr
-valtools
-whirl
-xportr
-
-```
-:::
-
-::::
-
-:::::
-
-
-## Pharmaverse - Get Involved
-
-_How you can get involved_
-
-:::: {.columns}
-
-::: {.column width="50%"}
-
-``` {r, echo = FALSE}
-generate_svg(
-  qr_code("https://pharmaverse.org/"),
-  size = 250,
-  file = "images/pharmaverse_qr1.svg"
-)
-```
-
-https://pharmaverse.org/
-
-![](images/pharmaverse_qr1.svg)
-
-:::
-
-::: {.column width="50%"}
-
-``` {r, echo = FALSE}
-generate_svg(
-  qr_code("https://pharmaverse.slack.com/"),
-  size = 250,
-  file = "images/pharmaverse_qr2.svg"
-)
-```
-
-https://pharmaverse.slack.com/
-
-![](images/pharmaverse_qr2.svg)
-
-:::
-
-
-::::
 
 
 ## CAMIS
@@ -302,12 +185,167 @@ generate_svg(
 
 ![](images/COSA1.png)
 
-## CDISC
+## CDISC Goals
 
 ![](images/COSA2.png)
+
+## RConsortium
+
+
+::::: {.columns}
+
+:::: {.column width="45%"}
+
+
+Benjamin Arancibia
+
+---
+
+<div style="text-align: center;"> _Mission_ </div>
+
+<div style="font-size:30px;">
+🚀 The central mission of the R Consortium is to work with and provide support to the R Foundation and to the key organizations developing, maintaining, distributing and using R software through the identification, development and implementation of infrastructure projects.
+
+</div>
+
+::::
+
+:::: {.column width="55%"}
+
+::: {.codewindow style="font-size: 0.36em;"}
+
+ _Current Projects_
+
+``` bash
+- Submissions Working Group
+- R Tables for Regulatory Submission (RTRS)
+- RValidationHub
+- Many Others!
+```
+:::
+
+_How you can get involved_
+
+``` {r, echo = FALSE}
+generate_svg(
+  qr_code("https://r-consortium.org/"),
+  size = 250,
+  file = "images/rconsort.svg"
+)
+```
+
+[R Consortium](https://r-consortium.org/)
+
+![](images/rconsort.svg)
+
+::::
+
+:::::
+
+## DVOST
+
+
+::::: {.columns}
+
+:::: {.column width="45%"}
+
+Mike Stackhouse
+
+Hanming Tu
+
+---
+
+<div style="text-align: center;"> _Mission_ </div>
+
+<div style="font-size:30px;">
+🚀 Data Visualisation and Open Source Technology aims to support, address, and answer pertinent questions around Data Visualisation and Open Source Technology. The combination of these two subjects is natural in today’s environment given the powerful Data Visualisation tools within the Open Source languages available today.
+
+</div>
+
+::::
+
+:::: {.column width="55%"}
+
+::: {.codewindow style="font-size: 0.36em;"}
+
+ _Current Projects_
+
+``` bash
+- PharmaForest: A Collaborative Repository of SAS Packages for Pharmaceutical Industry
+- Comparing Analysis Method Implementations in Software (CAMIS)
+- Clinical Visual Analytics for Review and Submission (CVARS)
+- and many others!
+```
+:::
+
+_How you can get involved_
+
+``` {r, echo = FALSE}
+generate_svg(
+  qr_code("https://advance.hub.phuse.global/wiki/spaces/WEL/pages/26804419/Data+Visualisation+Open+Source+Technology/"),
+  size = 250,
+  file = "images/dvost.svg"
+)
+```
+
+[Data Visualisation & Open Source Technology](https://advance.hub.phuse.global/wiki/spaces/WEL/pages/26804419/Data+Visualisation+Open+Source+Technology/)
+
+![](images/dvost.svg)
+
+::::
+
+:::::
+
+## r/pharma
+
+
+::::: {.columns}
+
+:::: {.column width="45%"}
+
+
+Phil Bowsher
+
+---
+
+<div style="text-align: center;"> _Mission_ </div>
+
+<div style="font-size:30px;">
+🚀 R/Pharma is a scientifically & industry oriented, collegial online conference focused on the use of R in the development of pharmaceuticals, with breakout in-person and APAC satellite events.
+
+</div>
+
+::::
+
+:::: {.column width="55%"}
+
+::: {.codewindow style="font-size: 0.36em;"}
+
+ _Current Projects_
+
+``` bash
+- R/Pharma Virtual 2026: October 20-21
+```
+:::
+
+_How you can get involved_
+
+``` {r, echo = FALSE}
+generate_svg(
+  qr_code("https://rinpharma.com//"),
+  size = 250,
+  file = "images/rpharma.svg"
+)
+```
+
+[R/Pharma](https://rinpharma.com//)
+
+![](images/rpharma.svg)
+
+::::
+
+:::::
 
 ## Mixer
 
 <div style="text-align: center;"> {{< countdown minutes=5 play_sound=true font-size="15rem" top=center right=center line-height=2  >}} </div>
-
-
