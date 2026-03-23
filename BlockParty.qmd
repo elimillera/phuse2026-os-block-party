@@ -15,8 +15,6 @@ library(qrcode)
 
 ```
 
-## What is the Block Party?
-
 ## RValidationHub
 
 ::::: {.columns}
@@ -24,7 +22,7 @@ library(qrcode)
 :::: {.column width="50%"}
 
 
-Eli Miller
+Doug Kelkhoff
 
 ---
 
@@ -99,13 +97,13 @@ Christina Fillmore
  _Current Projects_
 
 ``` bash
-- [Current Open issues](https://github.com/PSIAIMS/CAMIS/issues)
-- [CAMIS - A PHUSE DVOST Working Group](https://psiaims.github.io/CAMIS/)
-
+- https://github.com/PSIAIMS/CAMIS/issues
+  24 Open Issues / 140 Closed!
+- Survival: weighted log-rank test
+- Kolmogorov-Smirnov test 
+- Writing content
 ```
 :::
-
-_How you can get involved_
 
 ``` {r, echo = FALSE}
 generate_svg(
@@ -115,7 +113,7 @@ generate_svg(
 )
 ```
 
-[CAMIS - A PHUSE DVOST Working Group](https://psiaims.github.io/CAMIS/)
+[Get Involved - CAMIS](https://psiaims.github.io/CAMIS/)
 
 ![](images/camis.svg)
 
@@ -163,8 +161,6 @@ Ben Straub
 ```
 :::
 
-_How you can get involved_
-
 ``` {r, echo = FALSE}
 generate_svg(
   qr_code("https://rconsortium.github.io/submissions-wg/join.html/"),
@@ -173,7 +169,7 @@ generate_svg(
 )
 ```
 
-[How to Join – R Submissions Working Group](https://rconsortium.github.io/submissions-wg/join.html/)
+[How to Join – R Submissions](https://rconsortium.github.io/submissions-wg/join.html/)
 
 ![](images/swg.svg)
 
@@ -253,11 +249,13 @@ Mike Stackhouse
 
 Hanming Tu
 
+Nick Masel
+
 ---
 
 <div style="text-align: center;"> _Mission_ </div>
 
-<div style="font-size:30px;">
+<div style="font-size:25px;">
 🚀 Data Visualisation and Open Source Technology aims to support, address, and answer pertinent questions around Data Visualisation and Open Source Technology. The combination of these two subjects is natural in today’s environment given the powerful Data Visualisation tools within the Open Source languages available today.
 
 </div>
@@ -278,8 +276,6 @@ Hanming Tu
 ```
 :::
 
-_How you can get involved_
-
 ``` {r, echo = FALSE}
 generate_svg(
   qr_code("https://advance.hub.phuse.global/wiki/spaces/WEL/pages/26804419/Data+Visualisation+Open+Source+Technology/"),
@@ -288,7 +284,7 @@ generate_svg(
 )
 ```
 
-[Data Visualisation & Open Source Technology](https://advance.hub.phuse.global/wiki/spaces/WEL/pages/26804419/Data+Visualisation+Open+Source+Technology/)
+[How to Join - DVOST](https://advance.hub.phuse.global/wiki/spaces/WEL/pages/26804419/Data+Visualisation+Open+Source+Technology/)
 
 ![](images/dvost.svg)
 
@@ -348,4 +344,4 @@ generate_svg(
 
 ## Mixer
 
-<div style="text-align: center;"> {{< countdown minutes=5 play_sound=true font-size="15rem" top=center right=center line-height=2  >}} </div>
+<div style="text-align: center;"> {{< countdown minutes=10 play_sound=true font-size="15rem" top=center right=center line-height=2  >}} </div>
